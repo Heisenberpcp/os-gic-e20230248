@@ -1,0 +1,15 @@
+/home/gic-chea-piseth/oslab-work/lab1/task2_files
+market.txt
+silver.txt
+market.txt
+silver.txt
+This is file market
+This is file silver
+market.txt
+market_copy.txt
+silver.txt
+market.txt
+market_copy.txt
+silver_renamed.txt
+market.txt
+silver_renamed.txt

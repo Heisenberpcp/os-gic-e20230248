@@ -84,9 +84,7 @@ The are three ling of `sleep 300 &` ans 4 of line `ps` show
  115299 pts/5    00:00:00 sleep
  115327 pts/5    00:00:00 ps
 ```
-
 It shows
-
 - bash: The shell that is running your commands.
 - Two sleep processes: Programs that are paused for a specified amount of time.
 - ps: The command used to display the process list.
@@ -95,15 +93,12 @@ It shows
 - The CPU time used (TIME), which is essentially zero for these processes.
 
 It does not show about processor sharing
-
 - It does not show how the CPU is being shared among processes.
 - It does not show which process is currently running on the CPU.
 - It does not show scheduling decisions, priorities, time slices, or context switches.
 - It does not show CPU usage percentages or how much processor time each process receives relative to others.
-- Since sleep processes spend most of their time waiting rather than using the CPU, this output does not reveal how the operating system schedules active processes.
-
-  ***
-
+  
+  ---
 #### Task 6: Virtualization and Hypervisor Detection
 
 ```

@@ -1,7 +1,5 @@
 # OS Lab1 Submission
 
----
-
 - **Name:** CHEA Piseth
 - **ID:** e20230248
 - **Ubuntu username on the server:** i4gic-os 7.0.0-38-generic

@@ -44,7 +44,9 @@ silver_renamed.txt
 #### Task 3: Package Management Using APT
 
 Explain the difference you observed between remove and purge.
+
 • `Remove (apt remove )` : Uninstalls the program binaries and executable files, but leaves system-wide configuration files and logs behind. If you reinstall the software later, your old settings will still be there.
+
 • `Purge (apt purge)`: Uninstalls the program binaries and deletes all system-wide configuration files. This is useful when an application is broken, and you want a completely clean slate.
 
 ---

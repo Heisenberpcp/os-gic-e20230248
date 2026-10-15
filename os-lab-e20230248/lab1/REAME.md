@@ -7,13 +7,13 @@
 
 ---
 
-#### Task 1: Operating System Identification
+### Task 1: Operating System Identification
 
 The system is running Ubuntu Linux with a Linux kernel version: 7.0.0-38-generic and Distribution Version: 26.04
 
 ---
 
-#### Task 2: Essential Linux File and Directory Commands
+### Task 2: Essential Linux File and Directory Commands
 
 Menagement file in lunix is using command man for creating, copying, renaming and deleting files. it easy to menage file.
 The last `ls` show
@@ -39,7 +39,7 @@ silver_renamed.txt
 
 ---
 
-#### Task 3: Package Management Using APT
+### Task 3: Package Management Using APT
 
 Explain the difference you observed between remove and purge.
 
@@ -49,7 +49,7 @@ Explain the difference you observed between remove and purge.
 
 ---
 
-#### Task 4: Programs vs Processe
+### Task 4: Programs vs Processe
 
 Ruuning a background process is `&` in the end of command and find it by `ps`
 The different between: -`Program` is a passive set of instructions, usually stored as a file on disk. -`Process` is a program in execution. When the operating system launches a program.
@@ -70,7 +70,7 @@ The terminal displayed a message similar to:
 
 ---
 
-#### Task 5: Multitasking
+### Task 5: Multitasking
 
 `The multitasking` is doing multiple task in the same time
 The are three ling of `sleep 300 &` ans 4 of line `ps` show
@@ -97,7 +97,7 @@ It does not show about processor sharing
 - It does not show CPU usage percentages or how much processor time each process receives relative to others.
   
   ---
-#### Task 6: Virtualization and Hypervisor Detection
+### Task 6: Virtualization and Hypervisor Detection
 
 ```
 kvm
@@ -112,7 +112,7 @@ The system is running on a virtual machine because the command output identifies
 # Lab 1 — Optional Extensions
 
 
-#### A. More About APT
+### A. More About APT
 
 1. Look at a package before you install it. These commands only read information.
 
@@ -162,7 +162,7 @@ The system is running on a virtual machine because the command output identifies
             └── task6_virtualization_check.txt
 ```
 
-#### B. More About Virtual Machines
+### B. More About Virtual Machines
 
 1. Run `lscpu` 
    On wsl

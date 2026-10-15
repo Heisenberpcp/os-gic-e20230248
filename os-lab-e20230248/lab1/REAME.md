@@ -131,9 +131,9 @@ The system is running on a virtual machine because the command output identifies
 
    
 
-3. `update` and `upgrade` are different. `sudo apt-get update` only refreshes the list of available software. `sudo apt-get upgrade` installs newer versions of what you already have. Always run `update` first. Run `upgrade` only on your own machine, and read what it wants to change before you answer `Y`.
+2. `update` and `upgrade` are different. `sudo apt-get update` only refreshes the list of available software. `sudo apt-get upgrade` installs newer versions of what you already have. Always run `update` first. Run `upgrade` only on your own machine, and read what it wants to change before you answer `Y`.
 
-4. Install `tree`, then use it on your lab folder to see its structure.
+3. Install `tree`, then use it on your lab folder to see its structure.
 
    ```bash
    tree ~/os-gic-YOUR_ID
@@ -141,9 +141,6 @@ The system is running on a virtual machine because the command output identifies
    Tree files
  ```text
 └── os-gic-e20230248
-    ├── os-class-activities-e20230248
-    │   └── activity1
-    │       └── task1
     └── os-lab-e20230248
         └── lab1
             ├── REAME.md
@@ -167,7 +164,7 @@ The system is running on a virtual machine because the command output identifies
 1. Run `lscpu` 
    On wsl
    ```
-   Virtualization features:
+   Virtualization          features:
    Virtualization:         VT-x
    Hypervisor vendor:      Microsoft
    Virtualization type:    full

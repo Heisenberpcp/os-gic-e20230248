@@ -107,3 +107,69 @@ i4gic-os
 ```
 
 The system is running on a virtual machine because the command output identifies the hypervisor vendor as KVM, which means the operating system is being virtualized rather than running directly on physical hardware.
+
+---
+# Lab 1 — Optional Extensions
+
+
+#### A. More About APT
+
+1. Look at a package before you install it. These commands only read information.
+
+   ```bash
+   apt-cache policy mc
+   ```
+   The result
+   ```
+   mc:
+      Installed: (none)
+      Candidate: 3:4.8.33-1.1build1
+      Version table:
+      3:4.8.33-1.1build1 500
+      500 http://archive.ubuntu.com/ubuntu resolute/universe amd64 Packages
+   ```
+
+   
+
+3. `update` and `upgrade` are different. `sudo apt-get update` only refreshes the list of available software. `sudo apt-get upgrade` installs newer versions of what you already have. Always run `update` first. Run `upgrade` only on your own machine, and read what it wants to change before you answer `Y`.
+
+4. Install `tree`, then use it on your lab folder to see its structure.
+
+   ```bash
+   tree ~/os-gic-YOUR_ID
+   ```
+   Tree files
+ ```text
+└── os-gic-e20230248
+    ├── os-class-activities-e20230248
+    │   └── activity1
+    │       └── task1
+    └── os-lab-e20230248
+        └── lab1
+            ├── REAME.md
+            ├── images
+            │   ├── task3.png
+            │   ├── task5.png
+            │   └── task6.png
+            ├── task1_os_info.txt
+            ├── task2_file_commands.txt
+            ├── task2_files
+            │   ├── market.txt
+            │   └── silver_renamed.txt
+            ├── task3_apt.txt
+            ├── task4_process_list.txt
+            ├── task5_multitasking.txt
+            └── task6_virtualization_check.txt
+```
+
+#### B. More About Virtual Machines
+
+1. Run `lscpu` 
+   On wsl
+   ```
+   Virtualization features:
+   Virtualization:         VT-x
+   Hypervisor vendor:      Microsoft
+   Virtualization type:    full
+   ```
+3. A virtual machine can run inside another one. Look at `hostname` and `uname -r` on both machines. Which values are the same, and which are different?

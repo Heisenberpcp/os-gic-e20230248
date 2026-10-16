@@ -169,4 +169,22 @@ The system is running on a virtual machine because the command output identifies
    Hypervisor vendor:      Microsoft
    Virtualization type:    full
    ```
-3. A virtual machine can run inside another one. Look at `hostname` and `uname -r` on both machines. Which values are the same, and which are different?
+   On server
+   ```
+   Virtualization features:
+   Virtualization:            VT-x
+   Hypervisor vendor:         KVM
+   Virtualization type:       full
+   ```
+3. A virtual machine can run inside another one. Look at `hostname` and `uname -r` on both machines.
+   
+   On wsl
+      ```
+   `hostnaem` MSI
+   `uname -r` 6.6.87.2-microsoft-standard-WSL2
+   ```
+   On server
+      ```
+   `hostnaem` i4gic-os
+   `uname -r` 7.0.0-38-generic
+      ```

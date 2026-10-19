@@ -1,0 +1,12 @@
+# Trace the library version
+strace -e trace=openat,read,write,close ./file_creator_lib 2> ../task3_strace/strace_lib_task1.txt
+
+# Trace the system call version
+strace -e trace=openat,read,write,close ./file_creator_sys 2> ../task3_strace/strace_sys_task1.txt
+# Example with the file reader (Task 1, Part B)
+strace -e trace=openat,read,write,close ./file_reader_lib 2> ../task3_strace/strace_lib_reader.txt
+strace -e trace=openat,read,write,close ./file_reader_sys 2> ../task3_strace/strace_sys_reader.txt
+# Summary for library version
+strace -c ./file_creator_lib 2> ../task3_strace/strace_summary_lib.txt
+# Summary for system call version
+strace -c ./file_creator_sys 2> ../task3_strace/strace_summary_sys.txt

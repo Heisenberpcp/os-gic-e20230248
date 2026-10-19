@@ -1,0 +1,11 @@
+
+
+gcc -Wall -Wextra -o file_creator_lib file_creator_lib.c
+gcc -Wall -Wextra -o file_creator_sys file_creator_sys.c
+gcc -Wall -Wextra -o file_reader_lib file_reader_lib.c
+gcc -Wall -Wextra -o file_reader_sys file_reader_sys.c
+
+./file_creator_lib
+./file_reader_lib
+./file_creator_sys
+./file_reader_sys

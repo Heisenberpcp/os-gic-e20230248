@@ -46,7 +46,7 @@ Explain the difference you observed between remove and purge.
 • `Remove (apt remove )` : Uninstalls the program binaries and executable files, but leaves system-wide configuration files and logs behind. If you reinstall the software later, your old settings will still be there.
 
 • `Purge (apt purge)`: Uninstalls the program binaries and deletes all system-wide configuration files. This is useful when an application is broken, and you want a completely clean slate.
-
+![Task 3: apt remove vs purge](images/task3.png)
 ---
 
 ### Task 4: Programs vs Processe
@@ -82,6 +82,7 @@ The are three ling of `sleep 300 &` ans 4 of line `ps` show
  115299 pts/5    00:00:00 sleep
  115327 pts/5    00:00:00 ps
 ```
+![Task 5: ps showing 3 sleep processes](images/task5.png)
 It shows
 - bash: The shell that is running your commands.
 - Two sleep processes: Programs that are paused for a specified amount of time.
@@ -105,6 +106,7 @@ Hypervisor vendor:                       KVM
 7.0.0-38-generic
 i4gic-os
 ```
+![Task 6: virtualization detection](images/task6.png)
 
 The system is running on a virtual machine because the command output identifies the hypervisor vendor as KVM, which means the operating system is being virtualized rather than running directly on physical hardware.
 

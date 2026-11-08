@@ -1,0 +1,10 @@
+total 32
+drwxr-xr-x 2 user user  4096 Nov  8 12:24 .
+drwxr-xr-x 8 user user  4096 Nov  8 11:43 ..
+-rwxr-xr-x 1 user user 16392 Nov  8 12:24 forkchild
+-rw-r--r-- 1 user user  1439 Nov  8 11:48 forkchild.c
+-rw-r--r-- 1 user user     0 Nov  8 12:24 result_forkchild.txt
+Parent process (PID: 721) — creating child...
+Parent: waiting for child (PID: 722) to finish...
+Parent: child exited with status 0
+Parent: done.

@@ -1,0 +1,10 @@
+  586  cd task4_mq
+  587  gcc -o sender sender.c -lrt
+  588  gcc -o receiver receiver.c -lrt
+  589  # Step 1: Run the sender (puts a message in the queue)
+  590  ./sender
+  591  # Step 2: Run the receiver (reads the message and saves output)
+  592  ./receiver > result-mq-ipc.txt
+  593  # View the result
+  594  cat result-mq-ipc.txt
+  595  history | tail -n 10 > command_used_mq.txt

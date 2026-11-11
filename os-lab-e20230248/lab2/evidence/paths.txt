@@ -1,0 +1,4 @@
+I used a relative path from Marketing to Sales. An absolute path is better when a command must work regardless of the current directory.
+Error: cat: 'reports/sales north.txt': No such file or directory
+Fix: ../../reports/sales north.txt
+mv "$OSLAB_WORKSPACE/lab2/incoming/travel claims.txt" "$OSLAB_WORKSPACE/lab2/reports/"

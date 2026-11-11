@@ -1,5 +1,5 @@
 
-# Lab 2 — Linux Navigation and File Management: individual report
+# Lab 2 — Linux Navigation and File Management
 
 - **Student name:** Chea Piseth
 -  **ID  :** e20230248

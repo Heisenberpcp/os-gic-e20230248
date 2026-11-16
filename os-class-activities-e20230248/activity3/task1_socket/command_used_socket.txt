@@ -1,0 +1,20 @@
+  645  sudo apt install telegram
+  646  mysql -u user -p -e "SHOW DATABASES;"
+  647  udo apt install mysql-server -y
+  648  sudo apt install mysql-server -y
+  649  sudo systemctl status mysql
+  650  sudo systemctl enable --now mysql
+  651  sudo mysql
+  652  mysql -u root -p
+  653  sudo su
+  654  mysql
+  655  mysql -u root -p
+  656  sudo mysql school_db < my_sql.sql
+  657  sudo su
+  658  ls
+  659  cd activity3
+  660  ls
+  661  cd task1_socket
+  662  ls
+  663  gcc -o client client.c
+  664  ./server

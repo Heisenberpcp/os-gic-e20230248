@@ -1,0 +1,12 @@
+.:
+total 8
+19268920 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth   24 Nov 17 12:18 garden-backup.txt
+19268918 drwxrwxr-x 2 gic-chea-piseth gic-chea-piseth 4096 Nov 17 12:18 links
+
+links:
+total 4
+19268921 lrwxrwxrwx 1 gic-chea-piseth gic-chea-piseth 20 Nov 17 12:18 first.txt -> ../garden-backup.txt
+19268920 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 24 Nov 17 12:18 hard.txt
+19268922 lrwxrwxrwx 1 gic-chea-piseth gic-chea-piseth  9 Nov 17 12:18 second.txt -> first.txt
+checkpoint tiger garden
+checkpoint tiger garden

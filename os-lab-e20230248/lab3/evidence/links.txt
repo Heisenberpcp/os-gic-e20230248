@@ -1,0 +1,25 @@
+
+=== BEFORE RENAME ===
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger-hard.txt
+19268370 lrwxrwxrwx 1 gic-chea-piseth gic-chea-piseth  9 Nov 17 10:56 tiger-soft.txt -> tiger.txt
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger.txt
+hard: version 566
+soft: version 566
+stored target: tiger.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger-backup.txt
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger-hard.txt
+19268370 lrwxrwxrwx 1 gic-chea-piseth gic-chea-piseth  9 Nov 17 10:56 tiger-soft.txt -> tiger.txt
+hard: version 566
+stored target: tiger.txt
+soft: cat: tiger-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger-backup.txt
+19268362 -rw-rw-r-- 2 gic-chea-piseth gic-chea-piseth 12 Nov 17 10:56 tiger-hard.txt
+19268370 lrwxrwxrwx 1 gic-chea-piseth gic-chea-piseth 16 Nov 17 10:56 tiger-soft.txt -> tiger-backup.txt
+stored target: tiger-backup.txt
+hard: version 566
+soft: version 566
+Decision: A relative target resolves from the directory holding the link so moving the folder keeps it working, whereas an absolute path would break if the folder is relocated.

@@ -1,0 +1,8 @@
+status,count
+sent,6
+clear,7
+sent,2
+sent-late,77
+sent,9
+clear,10
+cat: data/not-present.csv: No such file or directory

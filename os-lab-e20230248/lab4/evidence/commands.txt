@@ -1,0 +1,7 @@
+grep '^sent,' data/events.csv | tee evidence/selected.txt
+grep '^sent,' data/events.csv | cut -d, -f2 | tee evidence/fields.txt
+grep '^sent,' data/events.csv | wc -l > evidence/normal.txt
+grep '^sent,' data/no-match.csv | wc -l > evidence/edge.txt
+grep '^sent,' data/changed.csv | wc -l >> evidence/edge.txt
+cat data/missing.csv > evidence/stdout.txt 2> evidence/stderr.txt
+echo $? > evidence/status.txt
